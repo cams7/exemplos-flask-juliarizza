@@ -152,4 +152,6 @@ ENV/
 pyvenv.cfg
 pip-selfcheck.json
 
-
+#App
+/migrations
+storage.db

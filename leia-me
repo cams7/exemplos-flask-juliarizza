@@ -25,6 +25,18 @@ Aula 03
 pip install flask-sqlalchemy
 pip freeze > requirements.txt
 
+Aula 04
+pip install flask-migrate
+pip install flask-script
+pip freeze > requirements.txt
+
+python manage.py db init
+python manage.py db migrate
+python manage.py db upgrade
+python manage.py db --help
+
+python manage.py runserver
+
 
 
 
