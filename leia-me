@@ -21,6 +21,11 @@ python run.py
 #Running on http://localhost:5000/
 #CTR-C
 
+Aula 03
+pip install flask-sqlalchemy
+pip freeze > requirements.txt
+
+
 
 
 
