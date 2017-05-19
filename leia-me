@@ -5,9 +5,30 @@ sudo pip install virtualenv
 
 mkdir -P Projects/cursoflask
 cd Projects/cursoflask
-virtualenv --python=/usr/bin/python3.5 --system-site-packages venv
+virtualenv -p python3 venv
 source venv/bin/activate
 
 pip install Flask
 python aula1/hello.py
 #Running on http://localhost:5000/
+#CTR-C
+#deactivate
+
+Aula 02
+pip freeze > requirements.txt
+#pip install -r requirements.txt
+python run.py
+#Running on http://localhost:5000/
+#CTR-C
+
+
+
+
+
+
+
+
+
+
+
+
