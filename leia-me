@@ -71,6 +71,16 @@ users = User.query.filter_by(username='cams7').all()
 print(users)
 exit()
 
+Aula 11
+pip install flask-login
+pip freeze > requirements.txt
+
+python manage.py runserver
+#Running on http://localhost:5000/
+#CTR-C
+
+
+
 
 
 
