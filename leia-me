@@ -55,6 +55,22 @@ python manage.py runserver
 #Running on http://localhost:5000/
 #CTR-C
 
+Aula 10
+python manage.py db migrate
+python manage.py db upgrade
+
+python manage.py shell
+from app import db
+from app.models.tables import User
+user = User('cams7','12345','Cesar A. Magalhaes','ceanma@gmail.com')
+db.session.add(user)
+db.session.commit()
+user = User.query.filter_by(username='cams7').first()
+print(user)
+users = User.query.filter_by(username='cams7').all()
+print(users)
+exit()
+
 
 
 
