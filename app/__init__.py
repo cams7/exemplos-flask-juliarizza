@@ -15,4 +15,4 @@ manager = Manager(app)
 manager.add_command('db', MigrateCommand)
 
 
-from app.controllers import default
+from app.controllers import urls

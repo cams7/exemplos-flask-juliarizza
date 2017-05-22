@@ -47,6 +47,14 @@ print(s.SQLALCHEMY_DATABASE_URI)
 print(s.SQLALCHEMY_TRACK_MODIFICATIONS)
 exit()
 
+Aula 09
+pip install flask-wtf
+pip freeze > requirements.txt
+
+python manage.py runserver
+#Running on http://localhost:5000/
+#CTR-C
+
 
 
 
